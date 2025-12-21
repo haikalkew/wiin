@@ -52,7 +52,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Weather List"] = {
             "Wind",
             "Cloudy",
-            "Stom",
+            "Storm",
         },
     },
     ["Potions"] = {
@@ -115,8 +115,8 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = false,
+    ["UltimatePerformance"] = true,
+    ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
