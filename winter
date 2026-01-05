@@ -32,7 +32,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
-        ["Unlock Ancient Ruin"] = true,
+        ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Ghost Shark",
@@ -93,7 +93,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Mutation Hunter II",
             "Prismatic I",
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Cryoshade Glider",
@@ -138,7 +138,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
-    ["HideGUI"] = false,
+    ["HideGUI"] = true,
     ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
