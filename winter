@@ -3,17 +3,21 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Perfect"] = true,
         ["Auto Favorite"] = true,
         ["Fish Name"] = {
-            "Ruby",
+            "Sacred Guardian Squid",
+            {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Auto Accept Trade"] = true,
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"KewMarket"},
-        ["Category Fish"] = { -- Only Select one, fill in the fish category or fish name
+        ["Category Fish"] = {
             "Secret",
         },
         ["Fish Name"] = {
+        },
+        ["Item Name"] = {
+            "Evolved Enchant Stone",
         },
     },
     ["Farm Coin Only"] = {
@@ -27,13 +31,11 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = true,
+        ["Auto Element Rod"] = false,
+        ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Ghost Shark",
-            "Skeleton Narwhal",
-            "Giant Squid",
-            "Thin Armor Shark",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
@@ -59,10 +61,21 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Astral Rod",
     },
+    ["Totems"] = {
+        ["Auto Use"] = true,
+        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Buy List"] = {
+            "Luck Totem",
+            "Mutation Totem",
+            "Shiny Totem",
+        },
+    },
     ["Event"] = {
-        ["Start Farm"] = false,
+        ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
+            ["Christmas Cave"] = true,
+            ["Hacker Event"] = true,
             "Megalodon Hunt",
             "Ghost Shark Hunt",
             "Shark Hunt",
@@ -70,9 +83,13 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
-        ["Roll Enchant"] = false,
+        ["Roll Enchant"] = false, -- true = Roll until get TOP 1 enchant only (first in list)
+        ["Evolved Roll Enchant"] = true, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
         ["Enchant List"] = {
-            "Big Hunter I",
+            "SECRET Hunter",
+            "Shark Hunter",
+            "Mutation Hunter III",
+            "Leprechaun II",
             "Mutation Hunter II",
             "Prismatic I",
         },
@@ -85,6 +102,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Reeler I",
             "Prismatic I",
             "Mutation Hunter II",
+            "Perfection",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
@@ -106,7 +124,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Ares Rod",
             "Angler Rod",
         },
-        ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
+        ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
@@ -120,6 +138,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
-    ["HideGUI"] = true,
+    ["HideGUI"] = false,
+    ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
