@@ -14,10 +14,10 @@ getgenv().RAM = {
 } 
  getgenv().Configuration = {
     ["Current Version"] = "10", 
-    ["Auto Rejoin"] = true, 
+    ["Auto Rejoin"] = false, 
     ["Full Aurora"] = true, 
     Daily_Shop = {
-        ["Enabled"] = true, 
+        ["Enabled"] = false, 
         Level_Requirement = 1000,
         Item_List = { 
             "Aurora Totem", 
@@ -47,7 +47,7 @@ getgenv().RAM = {
         Necessity_Rod = { 
             ["Carbon Rod"] = false,
             ["Rapid Rod"] = false,
-            ["Treasure Rod"] = true,
+            ["Treasure Rod"] = false,
             ["Carrot Rod"] = false, 
             ["Destiny Rod"] = false, 
             ["Luminescent Oath"] = false, -- // Req level 500
@@ -61,7 +61,6 @@ getgenv().RAM = {
             "Carrot Rod", 
             "Treasure Rod",
             "Great Rod of Oscar", 
-            "Polaris Serenade", 
             "Random Rod", 
         },
     },
