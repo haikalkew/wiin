@@ -15,7 +15,7 @@ getgenv().RAM = {
  getgenv().Configuration = {
     ["Current Version"] = "10", 
     ["Auto Rejoin"] = false, 
-    ["Full Aurora"] = false, 
+    ["Full Aurora"] = true, 
     Daily_Shop = {
         ["Enabled"] = true, 
         Level_Requirement = 250,
@@ -57,8 +57,7 @@ getgenv().RAM = {
             "Original No-Life Rod", 
             "Carrot Rod", 
             "Treasure Rod",
-            "Great Rod of Oscar", 
-            "Random Rod", 
+            "Great Rod of Oscar",  
         },
     },
 }
