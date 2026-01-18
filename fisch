@@ -56,7 +56,7 @@ getgenv().RAM = {
             ["Destiny Rod"] = false, 
             ["Luminescent Oath"] = false, -- // Req level 500
             ["Great Rod of Oscar"] = true, 
-            ["Ethereal Prism Rod"] = true, 
+            ["Ethereal Prism Rod"] = false, 
         }, 
         Equipment_List = { 
             "Carbon Rod",
