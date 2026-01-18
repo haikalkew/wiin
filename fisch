@@ -38,9 +38,6 @@ getgenv().RAM = {
             ["Random Rod"] = {
                 "Clever",
             }, 
-            ["Polaris Serenade"] = {
-                "Clever",
-            }, 
         },
     }, 
     Default_Data = {  
@@ -48,7 +45,7 @@ getgenv().RAM = {
             ["Carbon Rod"] = false,
             ["Rapid Rod"] = false,
             ["Treasure Rod"] = false,
-            ["Carrot Rod"] = false, 
+            ["Carrot Rod"] = true, 
             ["Destiny Rod"] = false, 
             ["Luminescent Oath"] = false, -- // Req level 500
             ["Great Rod of Oscar"] = true, 
