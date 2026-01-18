@@ -1,21 +1,31 @@
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = true,
+        ["Random Result"] = false,
+
         ["Auto Favorite"] = true,
+        ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
+            -- {Variant = "Leviathan's Rage"}, -- Variant Only
+            -- {Tier = "Secret", Variant = "Leviathan's Rage"},  -- Tier + Variant
         },
+
         ["Auto Accept Trade"] = true,
+        ["Auto Friend Request"] = true,
     },
     ["Auto Trade"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Whitelist Username"] = {"KewMarket"},
         ["Category Fish"] = {
             "Secret",
+            -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] = {
-            "Ruby",
+            "Sacred Guardian Squid",
+            {Name = "Ruby", Variant = "Gemstone"},
+            -- {Variant = "Leviathan's Rage"}, -- Variant Only
         },
         ["Item Name"] = {
             "Evolved Enchant Stone",
