@@ -18,7 +18,7 @@ getgenv().RAM = {
     ["Full Aurora"] = true, 
     ["Safe Mode"] = true, 
     Daily_Shop = {
-        ["Enabled"] = true, 
+        ["Enabled"] = false, 
         Level_Requirement = 500,
         Item_List = { 
             "Aurora Totem", 
