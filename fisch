@@ -42,8 +42,8 @@ getgenv().RAM = {
             ["Treasure Rod"] = {
                 "Clever","Hasty","Momentum","Divine","Swift","Breezed",
             }, 
-            ["Polaris Serenade"] = {
-                "Clever",
+            ["Tryhard Rod"] = {
+                "Herculean",
             }, 
         },
     }, 
@@ -64,7 +64,8 @@ getgenv().RAM = {
             "Original No-Life Rod", 
             "Carrot Rod", 
             "Treasure Rod",
-            "Great Rod of Oscar",  
+            "Great Rod of Oscar",
+            "Tryhard Rod",
             "Random Rod", 
         },
     },
