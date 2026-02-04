@@ -43,7 +43,7 @@ getgenv().RAM = {
                 "Clever","Hasty","Momentum","Divine","Swift","Breezed",
             }, 
             ["Tryhard Rod"] = {
-                "Herculean",
+                "",
             }, 
         },
     }, 
