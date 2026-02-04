@@ -16,7 +16,7 @@ getgenv().RAM = {
     ["Current Version"] = "11", 
     ["Auto Rejoin"] = false, 
     ["Full Aurora"] = true, 
-    ["Safe Mode"] = true, 
+    ["Safe Mode"] = false, 
     Daily_Shop = {
         ["Enabled"] = true, 
         Level_Requirement = 500,
@@ -42,7 +42,7 @@ getgenv().RAM = {
             ["Treasure Rod"] = {
                 "Clever","Hasty","Momentum","Divine","Swift","Breezed",
             }, 
-            ["Tryhard Rod"] = {
+            ["Tryhardss Rod"] = {
                 "",
             }, 
         },
