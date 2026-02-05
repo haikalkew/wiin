@@ -15,7 +15,7 @@ getgenv().RAM = {
 getgenv().Configuration
     = {
         ["Fishing Location"] = CFrame.new(
-            950.1, 141.8, -1112.6
+            1066.8, 130.8, -1163.8
         ),
         ["Current Version"] = "12",
         ["Auto Rejoin"] = true,
