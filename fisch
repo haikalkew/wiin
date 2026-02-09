@@ -22,13 +22,14 @@ getgenv().Configuration
         ["Safe Mode"] = true,
         Daily_Shop = {
             ["Enabled"] = true,
-            Level_Requirement = 1000,
+            Level_Requirement = 500,
             Item_List = {
                 "Aurora Totem",
                 "Random Rod", --// ถ้าสุ่มเจอ ในร้านโคตรโชคดีเบ็ตแม่งอย่างโหด โอกาส ออก 0.02%
                 "Bloop Whistle", --// เอาไปรับเปิดได้
                 "Exalted Relic",
                 "Enchant Relic",
+                "Megalodon Hunt Totem",
             },
         },
         Aurora_Available = {
