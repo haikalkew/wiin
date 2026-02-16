@@ -47,7 +47,7 @@ getgenv().Configuration
             },
         },
         Enchant = {
-            ["Enabled"] = false,
+            ["Enabled"] = true,
             Money_Requirement = 75000,
             Relic_Data = {},
             Select_Enchant = {
