@@ -61,9 +61,9 @@ getgenv().Configuration
                 ["Carbon Rod"] = false,
                 ["Rapid Rod"] = false,
                 ["Treasure Rod"] = true,
-                ["Carrot Rod"] = false,
-                ["Destiny Rod"] = false,
-                ["Luminescent Oath"] = false, -- // Req level 500
+                ["Carrot Rod"] = true,
+                ["Destiny Rod"] = true,
+                ["Luminescent Oath"] = true, -- // Req level 500
                 ["Great Rod of Oscar"] = true,
                 ["Ethereal Prism Rod"] = true,
             },
