@@ -18,7 +18,7 @@ getgenv().Configuration
             21690.49, 134.47, 4008.27
         ),
         ["Current Version"] = "12",
-        ["Auto Rejoin"] = true,
+        ["Auto Rejoin"] = false,
         ["Safe Mode"] = true,
         Daily_Shop = {
             ["Enabled"] = true,
@@ -47,7 +47,7 @@ getgenv().Configuration
             },
         },
         Enchant = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             Money_Requirement = 75000,
             Relic_Data = {},
             Select_Enchant = {
