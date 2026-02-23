@@ -60,12 +60,12 @@ getgenv().Configuration
             Necessity_Rod = {
                 ["Carbon Rod"] = false,
                 ["Rapid Rod"] = false,
-                ["Treasure Rod"] = true,
-                ["Carrot Rod"] = true,
+                ["Treasure Rod"] = false,
+                ["Carrot Rod"] = false,
                 ["Destiny Rod"] = false,
                 ["Luminescent Oath"] = false, -- // Req level 500
-                ["Great Rod of Oscar"] = true,
-                ["Ethereal Prism Rod"] = true,
+                ["Great Rod of Oscar"] = false,
+                ["Ethereal Prism Rod"] = false,
             },
             Equipment_List = {
                 "Original No-Life Rod",
