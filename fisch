@@ -63,105 +63,105 @@ getgenv().Dev_Configuration
 	= {
 		["Quest Manager"] = {
 			["Rod Of The Depths"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 750000,
 				},
 			},
 			["Rod Of The Forgotten Fang"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1500,
 					Money_Requirement = 5050000,
 				},
 			},
 			["Rod Of The Zenith"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 1500000,
 				},
 			},
 			["Rod Of The Eternal King"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 2000,
 					Money_Requirement = 15000000,
 				},
 			},
 			["Magma Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 85000,
 				},
 			},
 			["Leviathan's Fang Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 350000,
 				},
 			},
 			["Challenger's Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 750000,
 				},
 			},
 			["Volcanic Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 250000,
 				},
 			},
 			["Duskwire"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1250,
 					Money_Requirement = 500000,
 				},
 			},
 			["Wicked Fang Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 400000,
 				},
 			},
 			["Fungal Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1500,
 					Money_Requirement = 10000,
 				},
 			},
 			["Heaven's Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1500,
 					Money_Requirement = 9000000,
 				},
 			},
 			["Cerulean Fang Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 800000,
 				},
 			},
 			["Crystalized Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1333,
 					Money_Requirement = 35000,
 				},
 			},
 			["Ice Warpers Rod"] = {
-				["Enabled"] = true,
+				["Enabled"] = false,
 				["Condition"] = {
 					Level_Requirement = 1000,
 					Money_Requirement = 65000,
