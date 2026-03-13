@@ -9,7 +9,18 @@ getgenv().RAM = {
 }
 getgenv().Configuration = {
 	["Fishing Location"] = CFrame.new(
-		-1066.78, 130.79, -1163.76
+		3706.87622,
+		-1127.95703,
+		-1090.40344,
+		-0.736613691,
+		-6.83706958e-08,
+		-0.676313758,
+		2.38866544e-08,
+		1,
+		-1.27109544e-07,
+		0.676313758,
+		-1.09785503e-07,
+		-0.736613691
 	),
 	["Current Version"] = "v1.0.2",
 	Aurora_Available = {
@@ -38,7 +49,7 @@ getgenv().Configuration = {
 	Default_Data = {
 		Necessity_Rod = {
 			["Carrot Rod"] = false,
-			["Great Rod of Oscar"] = false,
+			["Great Rod of Oscar"] = true,
 		},
 		Equipment_List = {
 			"Lucky Rod",
