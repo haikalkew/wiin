@@ -1,172 +1,62 @@
 getgenv().RAM = {
-	["Horst Manager"] = {
-		["Enabled"] = false,
-		["Description"] = [[
+    ["Horst Manager"] = {
+        ["Enabled"] = false,
+        ["Description"] = [[
         ⚡ Cash : [MONEY], 💎 Level : [LEVEL], 🎣 Rod Inventory : [RODSCOUNT], 🐟 Equipped Rod : [RODNOW] 
         ]],
-		["Delay Update"] = 5, -- // Second
-	},
+        ["Delay Update"] = 5, -- // Second
+    },
 }
 getgenv().Configuration = {
-	["Fishing Location"] = CFrame.new(
-		3706.87622,
-		-1127.95703,
-		-1090.40344,
-		-0.736613691,
-		-6.83706958e-08,
-		-0.676313758,
-		2.38866544e-08,
-		1,
-		-1.27109544e-07,
-		0.676313758,
-		-1.09785503e-07,
-		-0.736613691
-	),
-	["Current Version"] = "v1.0.2",
-	Aurora_Available = {
-		["Aurora Totem"] = {
-			["Enabled"] = true,
-			Level_Requirement = 10,
-			Money_Requirement = 500000,
-			Rod_Requirement = "Great Rod of Oscar",
-		},
-		["Sundial Totem"] = {
-			["Enabled"] = true,
-			Level_Requirement = 10,
-			Money_Requirement = 500000,
-			Rod_Requirement = "Great Rod of Oscar",
-		},
-	},
-	Enchant = {
-		["Enabled"] = true,
-		Money_Requirement = 75000,
-		Select_Enchant = {
-			["Great Rod of Oscar"] = {
-				"Clever",
-			},
-		},
-	},
-	Default_Data = {
-		Necessity_Rod = {
-			["Carrot Rod"] = true,
-			["Great Rod of Oscar"] = true,
-		},
-		Equipment_List = {
-			"Lucky Rod",
-			"Carrot Rod",
-			"Great Rod of Oscar",
-		},
-	},
+    ["Fishing Location"] = CFrame.new(
+        3706.87622,
+        -1127.95703,
+        -1090.40344,
+        -0.736613691,
+        -6.83706958e-08,
+        -0.676313758,
+        2.38866544e-08,
+        1,
+        -1.27109544e-07,
+        0.676313758,
+        -1.09785503e-07,
+        -0.736613691
+    ),
+    ["Current Version"] = "v1.0.2",
+    Aurora_Available = {
+        ["Aurora Totem"] = {
+            ["Enabled"] = true,
+            Level_Requirement = 10,
+            Money_Requirement = 500000,
+            Rod_Requirement = "Great Rod of Oscar",
+        },
+        ["Sundial Totem"] = {
+            ["Enabled"] = true,
+            Level_Requirement = 10,
+            Money_Requirement = 500000,
+            Rod_Requirement = "Great Rod of Oscar",
+        },
+    },
+    Enchant = {
+        ["Enabled"] = true,
+        Money_Requirement = 75000,
+        Select_Enchant = {
+            ["Great Rod of Oscar"] = {
+                "Clever",
+            },
+        },
+    },
+    Default_Data = {
+        Necessity_Rod = {
+            ["Carrot Rod"] = false,
+            ["Great Rod of Oscar"] = false,
+        },
+        Equipment_List = {
+            "Lucky Rod",
+            "Carrot Rod",
+            "Great Rod of Oscar",
+        },
+    },
 }
-
-getgenv().Dev_Configuration
-	= {
-		["Quest Manager"] = {
-			["Rod Of The Depths"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 750000,
-				},
-			},
-			["Rod Of The Forgotten Fang"] = {
-				["Enabled"] = true,
-				["Condition"] = {
-					Level_Requirement = 1500,
-					Money_Requirement = 5050000,
-				},
-			},
-			["Rod Of The Zenith"] = {
-				["Enabled"] = true,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 1500000,
-				},
-			},
-			["Rod Of The Eternal King"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 2000,
-					Money_Requirement = 15000000,
-				},
-			},
-			["Magma Rod"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 85000,
-				},
-			},
-			["Leviathan's Fang Rod"] = {
-				["Enabled"] = true,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 350000,
-				},
-			},
-			["Challenger's Rod"] = {
-				["Enabled"] = true,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 750000,
-				},
-			},
-			["Volcanic Rod"] = {
-				["Enabled"] = true,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 250000,
-				},
-			},
-			["Duskwire"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 1250,
-					Money_Requirement = 500000,
-				},
-			},
-			["Wicked Fang Rod"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 400000,
-				},
-			},
-			["Fungal Rod"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 1500,
-					Money_Requirement = 10000,
-				},
-			},
-			["Heaven's Rod"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 1500,
-					Money_Requirement = 9000000,
-				},
-			},
-			["Cerulean Fang Rod"] = {
-				["Enabled"] = true,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 800000,
-				},
-			},
-			["Crystalized Rod"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 1333,
-					Money_Requirement = 35000,
-				},
-			},
-			["Ice Warpers Rod"] = {
-				["Enabled"] = false,
-				["Condition"] = {
-					Level_Requirement = 1000,
-					Money_Requirement = 65000,
-				},
-			},
-		},
-	}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9443b5ed5bd60d5270dbb6d156e4274d.lua"))()
+script_key="lSWAzphOfJAaLJcyEdfmAjqOZjfFtIpw";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c5ea0c9d476024355b717542a3e27212.lua"))()
