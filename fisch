@@ -58,5 +58,4 @@ getgenv().Configuration = {
         },
     },
 }
-script_key="lSWAzphOfJAaLJcyEdfmAjqOZjfFtIpw";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c5ea0c9d476024355b717542a3e27212.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9443b5ed5bd60d5270dbb6d156e4274d.lua"))()
