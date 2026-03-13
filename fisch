@@ -38,7 +38,7 @@ getgenv().Configuration = {
 	Default_Data = {
 		Necessity_Rod = {
 			["Carrot Rod"] = false,
-			["Great Rod of Oscar"] = true,
+			["Great Rod of Oscar"] = false,
 		},
 		Equipment_List = {
 			"Lucky Rod",
