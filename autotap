@@ -1,1 +1,95 @@
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
 
+local function cleanCharacter(character)
+	for _, obj in ipairs(character:GetDescendants()) do
+		
+		if obj:IsA("BasePart") then
+			obj.LocalTransparencyModifier = 1
+			obj.CanCollide = false
+		
+		elseif obj:IsA("Tool") then
+			obj:Destroy()
+		
+		elseif obj:IsA("Accessory") then
+			obj:Destroy()
+		
+		elseif obj:IsA("BillboardGui") or obj:IsA("SurfaceGui") then
+			obj:Destroy()
+		
+		elseif obj:IsA("ParticleEmitter") 
+			or obj:IsA("Trail") 
+			or obj:IsA("Beam") then
+			obj:Destroy()
+		
+		elseif obj:IsA("Decal") then
+			obj.Transparency = 1
+		end
+	end
+end
+
+local function setupPlayer(player)
+	if player == LocalPlayer then return end
+	
+	local function onCharacter(character)
+		character:WaitForChild("HumanoidRootPart", 5)
+		cleanCharacter(character)
+
+		character.DescendantAdded:Connect(function(desc)
+			task.wait()
+
+			if desc:IsA("Tool") 
+				or desc:IsA("Accessory")
+				or desc:IsA("BillboardGui")
+				or desc:IsA("ParticleEmitter")
+				or desc:IsA("Trail")
+				or desc:IsA("Beam") then
+				
+				desc:Destroy()
+			end
+			
+			if desc:IsA("BasePart") then
+				desc.LocalTransparencyModifier = 1
+				desc.CanCollide = false
+			end
+		end)
+	end
+	
+	if player.Character then
+		onCharacter(player.Character)
+	end
+	
+	player.CharacterAdded:Connect(onCharacter)
+end
+
+for _, player in ipairs(Players:GetPlayers()) do
+	setupPlayer(player)
+end
+
+Players.PlayerAdded:Connect(setupPlayer)
+
+-- =========================
+-- TEKAN TOMBOL 1
+-- =========================
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+task.wait(2)
+
+VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.One, false, game)
+VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.One, false, game)
+
+-- =========================
+-- TELEPORT 2x (JEDA 15 DETIK)
+-- =========================
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local targetPosition = Vector3.new(21690.49, 134.47, 4008.27)
+
+for i = 1,2 do
+	task.wait(15)
+	humanoidRootPart.CFrame = CFrame.new(targetPosition)
+end
