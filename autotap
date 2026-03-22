@@ -87,7 +87,7 @@ local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 
-local targetPosition = Vector3.new(21690.49, 134.47, 4008.27)
+local targetPosition = Vector3.new(-1066.78, 130.79, -1163.76)
 
 for i = 1,2 do
 	task.wait(15)
